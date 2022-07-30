@@ -1,0 +1,102 @@
+/*background image style*/
+html{
+    height: 100%;                                   /*ensure backg img covers whole screen*/
+}
+body{                                                                                                   /*https://www.w3schools.com/howto/howto_css_full_page.asp*/
+    background-image: url('https://icanbecreative.com/res/freeweb/2011/04/fly-with-me.png');            /*add background image*/
+    background-repeat: no-repeat;                                                                       /*prev background image from repeating on page*/
+    background-attachment: fixed;                                                                       /*make image stay in place*/    
+    background-size: cover;                                                                             /*make image cover whole page*/
+    background-position: center;                                                                        /*center the image*/
+    height: 100%;                                                                                       /*have full height of image*/
+}
+
+/*navigation bar style*/
+.navbar {
+    height:35px;
+    overflow: hidden;                               /*hides content that overlaps under navbar*/
+    background: #00B2CA;                          /*color of navbar */
+    position: fixed;                                /*make navbar stay in fixed place*/
+    top: 0;                                         /*make navbar touch top of page*/
+    width: 100%;                                    /*make navbar stretch across whole width of page*/
+    margin-left: -9px;                              /*get rid of empty top left space by navbar*/
+    padding: 9px 0px 9px 0px;                       /*size of navbar*/
+}
+.navbar a{                                          /*style of navbar text; ie home, lessons*/
+    font-size: 18px;
+    color: white;
+    margin: 0px 20px 0px 30px;                      /*set space around navbar text; top, right, bottom, left*/
+    text-decoration: none;                          /*removes underline of Home, Lessons*/
+}
+#profileImg{                                        /*size and location of profile img*/
+    width: 35px;
+    height: 35px;
+    float: right;
+    padding-right: 45px;
+}
+#siteTitle{                                         /*style of site title in navbar*/
+    color: white;
+    font-size: 26px;
+    padding-left: 120px;                       /*space around site title*/
+}
+
+/*menuBar style*/
+.menuBar {                                          /*size of menubar*/
+    height: 200px;
+    width: 130px;
+    margin-left: -50px;                             /*make menubar touch left side of page*/
+    position: fixed;                                /*keep menu in same place when scrolling*/
+}
+.menuBar nav{
+    padding-top: 7px;                              /*pad top to touch navbar*/
+}
+
+.menuBar li{
+    background-color: #FBD1A2;                    /*color of menubar*/
+    list-style: none;                               /*rid of bullets*/
+    padding: 10px 10px 10px 20px;                   /*space between top, right, bottom, left of each text*/
+}
+.menuBar a{
+    font-size: 15px;
+    text-decoration: none;                          /*rid of underline under text*/
+    color: black;
+}
+
+
+#pageTitle {                                        /*color and location of page title "java lessons*/
+    color: black;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-left: 180px;
+}
+#subTitle{
+    color:black;
+    font-size: 25px;
+    padding-left: 180px;
+}
+
+
+/*lesson/topics list style*/
+.list{
+    top: 100px;
+}
+.list ul{                                                          
+    list-style: none;                                        /*get rid of bullet points*/
+    padding-left: 180px;
+}
+.list li{             
+    margin: auto;                                            /*center the rectangles horizontally*/
+    padding: 20px 0px 20px 0px;                               /*padding between each lesson rectangle */
+}
+.list a{                                                     /*style of text and rectanlges*/  
+    font-size: 20px;
+    color: white;
+    background-color: #1D4E89; 
+    padding: 12px 750px 12px 20px;                           /*size of lesson rectangles*/
+    text-decoration: none;                                      
+    text-align: left;
+}
+
+/* .pageBottom{
+
+} */
