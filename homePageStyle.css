@@ -1,0 +1,46 @@
+html{                          /*Eva*/
+    height: 100%;
+}
+
+.body{                        /*Eva code*/
+    background-image: url(https://icanbecreative.com/res/freeweb/2011/04/cloud_storage.png);
+    background-repeat: no-repeat;                                                                       /*prev background image from repeating on page*/
+    background-attachment: fixed;                                                                       /*make image stay in place*/    
+    background-size: cover;                                                                             /*make image cover whole page*/
+    background-position: center;                                                                        /*center the image*/
+    height: 100%;                   
+    font: Arial;                                                                    /*have full height of image*/
+}
+
+.homePage{                          /*Eva code*/
+    height: 70%;                    /*height and width of area on page that will contain everything*/
+    width: 65%;
+    margin: auto;                   /*make elements center in page horizontally; left/right have same space*/
+}
+
+.homePageBlock{                     /*Eva code*/
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;              /*pads top of text and image on page*/
+    background-color: aqua;
+}
+
+.progressBlock{                     /*Eva code*/
+    background: grey;
+    height: 100%;
+    width: 100%;
+}
+
+
+.progressItemContainer{                     /*Eva code moves all the items in the transparent box together*/
+    padding-top: 1%;                        /*makes box extend up to touch profile */
+    background-color: aquamarine;
+    height: 100%;
+    width: 95%;                             /*2.5% space on left and right*/
+    margin: auto;                           /*keeps itemContainer area centered inside ProgressBlock*/
+}
+
+.progressItems{                     /*Eva: ul item containing items inside box*/
+    list-style: none;               /*get rid of bullet points*/
+    padding-left: 1%;               /*pad left inside box*/
+}   
