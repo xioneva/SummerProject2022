@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background: #00b2ca;
+}
+.page-content {
+    background-color: #7DCFB6;
+    margin: 3% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; 
+    /* Could be more or less, depending on screen size */
+    /* change the size of the middle box */
+
+    
+}
+.container{
+    /* Control space between "sign up" and top of green box */
+    margin-top: auto;
+    padding: 16px; 
+    height: 50%;
+    margin-bottom: 5%;
+
+
+}
+hr{
+    border: 1px solid #f1f1f1;
+    /* control space between top of email box and white line */
+    margin-bottom: 5%;
+}
+.top-message{
+    text-align: center;
+    font-size: 150%;
+
+}
+.fill-out{
+    display: block;
+    text-align: center;
+    block-size: 80%;
+    margin-top: auto;
+    /* The height if the green box */
+    margin-bottom: auto; 
+
+}
+
+button{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+
+}
+
+input{
+    align-items: center;
+    float: center;
+    display: block;
+    text-align: center;
+    height: 40px; 
+    width: 100%;
+
+}
+label{
+    text-align: center;
+    font-size: 20px;
+}
