@@ -1,0 +1,53 @@
+
+<!--coded by Eva, bang-->
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href = "homePageStyle.css">
+        <link rel="stylesheet" href="NavBarUpdated.css">        <!--Aj code, edited by eva-->
+    </head>
+
+    <body>
+        <!--Aj code-->
+        <div id="headerbar">
+            <div class="sidebar">
+                <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+            </div>
+            <scan id="headertitle">Learn Java</scan>
+            <!--Implement interactive profile picture (button)-->
+            <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+        </div>
+        <div id="dropdownOptions" class="menu">
+            <a href="#home">Home</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#logout">Logout</a>
+        </div>
+        <script>
+            function open_menu() {
+                document.getElementById("dropdownOptions").classList.toggle("show");
+            }
+        </script>
+
+        <div class="homePageBlock">  <!--add another div to wrap everything together-->
+            
+            <div class = "userItems">       <!--div wraps hello and profile-->
+                <h1 id = "welcomeText"> Hello, UserName </h1>       <!--Bang-->
+                <img id = "avatar" src="https://media.defense.gov/2020/Feb/19/2002251686/-1/-1/0/200219-A-QY194-002.JPG" alt="An empty avatar"/>
+            </div>
+
+            <div class = "progressBlock">       <!--Eva: wrap in div to create the transparent background-->
+                <div class ="progressItemContainer">    <!--Eva: space that the items will be confined in-->
+                    <div><text id = "your_progress"> Your Progress</text> </div>     <!--Bang-->     <!--Eva: wrap texts in div, get on new line-->
+                    <div id = "progress_bar"> </div>                                 <!--Bang-->
+                    <div><text > Your Most Recent Lesson: </text></div>             <!--Bang-->
+                    <div><text > Other  Stats ie Total Lessons completed</text></div>     <!--Bang-->
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>

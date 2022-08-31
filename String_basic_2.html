@@ -1,0 +1,75 @@
+<!--AJ Hatoum-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <link rel="stylesheet" href="LessonStyles.css">
+    <title>List basic</title>
+</head>
+    <div id="headerbar">
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <scan id="headertitle">Learn Java</scan>
+        <!--Implement interactive profile picture (button)-->
+        <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+    </div>
+    <div id="dropdownOptions" class="menu">
+        <a href="#home">Home</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#logout">Logout</a>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("dropdownOptions").classList.toggle("show");
+        }
+    </script>
+    <div class="lesson">
+        <!--Lesson title here-->
+        <h1>Lesson 4: String Basic</h1>
+        <div class="lessonbox">
+            <!--Lesson content here-->
+            <p> There are some other method to access the String in the variable:
+                <br>
+                <br>
+                - length(): help to get the length of the text inside the string.
+                <br>
+                <br>
+                - indexOf(): help to get specific index contain in the string given character.
+                <br>
+                <br>
+                - charAt(): help to get the specific character in the string given the index.
+                <br>
+                <br>
+                - toLowerCase(): help to convert the string to lower case.
+                <br>
+                <br>
+                - toUpperCase(): help to convert a string to upper case.
+                <br>
+                <br>
+                - concat(): help to append 2 String together
+                <br>
+                <br>
+                - split() : help to split a string into multiple strings and returns and array of string
+                <br>
+                <br>
+                - join(): simliar to concat() method, help to join multiples strings into one string. But it may cause overloaded.
+                <br>
+                <br>
+                - isEmpty(): help to check if the String is Empty or not by returning a boolean
+
+            </p>
+        </div>
+    </div>
+    <div class="nextbutton">
+        <a href= "http://127.0.0.1:5500/congratsPage_string_basic.html">Next</a>
+    </div>
+    <div class="backbutton">
+        <a href="http://127.0.0.1:5500/String_basic_1.html">Back</a>
+    </div>
+</body>
+</html>

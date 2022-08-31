@@ -1,0 +1,75 @@
+<!--AJ Hatoum-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <link rel="stylesheet" href="LessonStyles.css">
+    <title>Iteration over a List</title>
+</head>
+    <div id="headerbar">
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <scan id="headertitle">Learn Java</scan>
+        <!--Implement interactive profile picture (button)-->
+        <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+    </div>
+    <div id="dropdownOptions" class="menu">
+        <a href="#home">Home</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#logout">Logout</a>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("dropdownOptions").classList.toggle("show");
+        }
+    </script>
+    <div class="lesson">
+        <!--Lesson title here-->
+        <h1>Lesson 10: Iteration over a List</h1>
+        <div class="lessonbox">
+            <!--Lesson content here-->
+            <p>In this lesson, you'll learn about What is Iteration and How do we Iterate over a list.
+                <br>
+                <br>
+                What is Iteration?
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+                In Java, iteration is a technique used to sequence through a 
+                block of code repeatedly until a specific condition either exists or no longer exists.
+                Iterations are a very common approach used with loops.
+
+                <br>
+                <br>
+                How to Iterate over a list?
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+                We often use For loop in order to Iterate over a list. First, we intialize and variable index contain value 0.
+                Then we give the condition where index must be less than the length of the list -1. 
+                <br>
+                <br>
+                Example:
+                <br>
+                list = [0,0,0,0,0];
+                <br>
+                For (int index = 0; index < list.length; index++) {
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; list[index] = index;
+                    <br>
+                }
+                <br>
+                this will result list = [0, 1, 2, 3, 4]
+
+
+            </p>
+        </div>
+    </div>
+    <div class="nextbutton">
+        <a href="http://127.0.0.1:5500/Iteration_list_2.html">Next</a>
+    </div>
+</body>
+</html>

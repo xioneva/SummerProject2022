@@ -1,0 +1,68 @@
+<!--AJ Hatoum-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <link rel="stylesheet" href="LessonStyles.css">
+    <title>List basic</title>
+</head>
+    <div id="headerbar">
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <scan id="headertitle">Learn Java</scan>
+        <!--Implement interactive profile picture (button)-->
+        <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+    </div>
+    <div id="dropdownOptions" class="menu">
+        <a href="#home">Home</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#logout">Logout</a>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("dropdownOptions").classList.toggle("show");
+        }
+    </script>
+    <div class="lesson">
+        <!--Lesson title here-->
+        <h1>Lesson 4: String Basic</h1>
+        <div class="lessonbox">
+            <!--Lesson content here-->
+            <p>In this lesson, we will learn about the string in Java.
+                <br>
+                <br>
+                What is String?
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; String is a variable type, used to store text. The String 
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; variable is initialized with double quotes around characters. 
+                <br>
+                <br>
+                Example:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; String a = "Hello World";
+
+                <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp; System.out.println(a);
+                <br> 
+                -> Hello World
+                <br>
+                <br>
+                In this example, the String variable "a" store the the any text that we intialize.
+                When we call the variable, it print out the text that we stored intially
+
+
+            </p>
+        </div>
+    </div>
+    <div class="nextbutton">
+        <a href="http://127.0.0.1:5500/String_basic_2.html">Next</a>
+    </div>
+</body>
+</html>

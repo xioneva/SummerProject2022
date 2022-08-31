@@ -1,0 +1,56 @@
+<!--coded by Eva and AJHatoum-->
+<!DOCTYPE html>
+    <head>
+
+        <link rel="stylesheet" href="NavBarUpdated.css">       <!--link aj css-->
+        <link rel="stylesheet"  href="congratsStyle.css">
+
+        <title>Lesson Complete</title>
+    </head>
+    <body>
+        <!--Aj code-->
+        <div id="headerbar">
+            <div class="sidebar">
+                <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+            </div>
+            <scan id="headertitle">Learn Java</scan>
+            <!--Implement interactive profile picture (button)-->
+            <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+        </div>
+        <div id="dropdownOptions" class="menu">
+            <a href="#home">Home</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#logout">Logout</a>
+        </div>
+        <script>
+            function open_menu() {
+                document.getElementById("dropdownOptions").classList.toggle("show");
+            }
+        </script>
+        
+
+        <!--Eva code-->
+        <div class="congratsPage">              <!--code block that displays congrats message and image-->
+            <div class="congratsBlock">    
+                <div class="congratsContainer">                  
+                    <h1 id="congratsMessage">Congrats, you've completed Lesson 8: Loop</h1>
+                    <img id="congratsImg" src= "https://img.freepik.com/premium-vector/exploding-party-popper-with-confetti-bright-cartoon-birthday-cracker-isolated-vector-illustration-celebration-symbol-emoji-flat-design_545793-909.jpg?w=740" alt="confetti">
+                </div>
+            </div>
+
+            <div class="buttons">                
+                <!-- <div class="buttonContainer"> -->
+                    <a id="backButton" href="link"> Back </a>
+                    <a id = "lessonButton" href="http://127.0.0.1:5500/lessonsListPage.html">Return to Lessons</a>
+                <!-- </div> -->
+            </div>
+        </div>
+        
+
+    </div>
+    </body>
+</html>

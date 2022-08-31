@@ -1,0 +1,69 @@
+
+body{                        
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2012/09/28/16832/8c89775715f949b5b2919a8a66a3d805.jpg');                                                            
+    background-attachment: fixed;                                                                       /*make image stay in place*/    
+    background-size: cover;                                                                             /*make image cover whole page*/
+    background-position: center;                                                                        /*center the image */
+    height: 100%;                                                           /*have full height of image*/
+    font: Arial;                                                                    
+}
+
+
+.homePageBlock{   
+    height: 400px;                 /*height and width of area on page that will contain everything */
+    width: 65%;                  
+    padding-top: 80px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.progressBlock{                     /*background for stats*/
+    background: grey;
+    height: 60%;
+    width: 100%;
+    opacity: 0.8;                   /*makes box transparent*/
+}
+
+
+.progressItemContainer{                     /*moves all the items in the transparent box together*/
+    padding-top: 1%;                        /*makes box extend up to touch profile */
+    padding-left: 2%;                       /*move all text in box left*/
+} 
+
+.progressItemContainer div{                 /*space around each text div*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* .userItems{
+    margin-bottom: px;
+} */
+
+.progressItems{                     /*ul item containing items inside box*/
+    list-style: none;               /*get rid of bullet points*/
+    padding-left: 1%;               /*pad left inside box*/
+}   
+
+#avatar{
+    height: 12%;
+    width: 8%;
+}
+
+#welcomeText{
+    font-size: 42px;
+    color: white;
+}
+
+#your_progress{
+    font-size: 20px;
+}
+
+#progress_bar {                             /*Bang's code*/
+    height: 20px; 
+    width: 500px;
+    border: 1px solid black;
+    background-color:rgb(39, 175, 39);
+    margin-top: 1%;                      /*eva: space on top of bar*/
+    margin-bottom: 1%;                   /*eva: space on bot of bar*/
+    position: relative;
+}

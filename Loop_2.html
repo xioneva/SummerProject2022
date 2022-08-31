@@ -1,0 +1,77 @@
+<!--AJ Hatoum-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <link rel="stylesheet" href="LessonStyles.css">
+    <title>Loop(For/While)</title>
+</head>
+    <div id="headerbar">
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <scan id="headertitle">Learn Java</scan>
+        <!--Implement interactive profile picture (button)-->
+        <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+    </div>
+    <div id="dropdownOptions" class="menu">
+        <a href="#home">Home</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#logout">Logout</a>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("dropdownOptions").classList.toggle("show");
+        }
+    </script>
+    <div class="lesson">
+        <!--Lesson title here-->
+        <h1>Lesson 8: Loop(For/While)</h1>
+        <div class="lessonbox">
+            <!--Lesson content here-->
+            <p>
+                In While loop, we often follow the general rules:
+                <br>
+                <br>
+                Initalize variable value
+                <br>
+                While (Condition) {
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; This part of program will run until the accumulator cause the condition to be False
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Accumulator (to help avoid infinite loop)
+                    <br>
+                }
+                <br>
+                <br>
+                Example:
+                <br>
+                int i = 0;
+                <br>
+                While (i < 10) {
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Hello World");
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; i ++;
+                    <br>
+                }
+                <br>
+                This program will print Hello World 10 times because the While loop use the intialize variable value "i" and compare it with the condition.
+                When the condition is True, the program will continue execute until the condition is False
+
+            </p>
+        </div>
+    </div>
+    <div class="nextbutton">
+        <a href="http://127.0.0.1:5500/congratsPage_loop.html">Next</a>
+    </div>
+
+    <div class="backbutton">
+        <a href="http://127.0.0.1:5500/Iteration_list_1.html">Back</a>
+    </div>    
+</body>
+</html>
