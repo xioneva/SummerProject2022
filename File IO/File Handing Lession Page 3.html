@@ -1,0 +1,59 @@
+
+<!--AJ Hatoum-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <link rel="stylesheet" href="LessonStyles.css">
+    <title>File I/O</title>
+</head>
+    <div id="headerbar">
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <scan id="headertitle">Learn Java</scan>
+        <!--Implement interactive profile picture (button)-->
+        <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+    </div>
+    <div id="dropdownOptions" class="menu">
+        <a href="../../homePage.html">Home</a>
+        <a href="../../lessonsListPage.html">Lessons</a>
+        <a href="../../Welcome page.htm">Logout</a>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("dropdownOptions").classList.toggle("show");
+        }
+    </script>
+     <div class="lesson">
+        <!--Lesson title here-->
+        <h1>Lesson 12: File I/O</h1>
+        <div class="lessonbox">
+            <p>
+                As you can saw, there is not method in the File class to read the content of the file. 
+                
+                So how would you read the content of a file? 
+                <br>
+                <br> 
+                You will have to use a scanner. 
+                To use a scanner you will need to import the Scanner class. 
+                After importing the scanner class, you will also need to create a scanner object.
+                <br> 
+                For example: Import java.until.Scanner;
+                <br>
+                Scanner [name] = new Scanner([File oject name]);
+            </p>
+        </div>
+    </div>
+    <div class="backbutton">
+        <a href="File Handing Lesson Page 2.html">Back</a>
+    </div>
+    <div class="nextbutton">
+        <a href="congratsPage.html">Next</a>
+    </div>
+</body>
+</html>
