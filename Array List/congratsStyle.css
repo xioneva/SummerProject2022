@@ -1,0 +1,81 @@
+
+/*coded by Eva & Aj*/
+.buttonBody{
+    font: Arial;                        /*font fam holds mult fonts for browsers to fall back to*/
+}
+
+.congratsPage{
+    height:500px;
+    width: 65%;                         /*space containing all items on page*/
+    margin: auto;                       /*centers everything on page horizontally*/
+}
+
+.congratsBlock{                         /*styles space around text and image*/
+    padding-bottom: 10px;
+    padding-top: 80px;                  /*pads top of text and image on page*/
+    /* background-color: rgb(182, 243, 174);  */
+    /* background-color: greenyellow; */
+}
+
+#congratsImg{                   /*size of image*/
+    height: 26%;
+    width: 26%;
+    padding-top: 7%;             /*space away from congrats message*/
+    display: block;              /*make img into bloack element, use margin to align in middle*/
+    margin: auto;               /*centers img horizontally*/
+}
+
+
+#congratsMessage{               /*how to make text shrink with elements when page is minimized?*/
+    color: #1D4E89;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;         /*center congrats message*/
+    font-family: Arial;
+}
+
+.buttons{                       /*area that button div takes up*/
+    height: 20px;                /*align width with outermost div*/   
+    width: 64.1%;
+    position: absolute;         /*position relative to nearest parent element, makes it take up same space as outermost space*/
+    /* padding-top: 10px;          
+    padding-bottom: 10px; */
+    /* background-color: bisque; */
+    font-size: 35px;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+
+#lessonButton{                  /*locaton of button*/
+    position: absolute;
+    top: 85%;
+    right: 6.25%;
+    text-decoration: none;
+    color: black;
+} 
+
+ #backButton{                /*location of back button*/
+    position: absolute;
+    top: 85%;
+    left: 6.25%;
+    text-decoration: none;         /*pad left side of button */
+    color: black;
+} 
+
+ /*aj*/
+/* .buttons a{                 
+    position: absolute;
+    top: 85%;
+    left: 6.25%;
+    text-decoration: none;
+} */
+
+/*locaton of button*/
+/* .lessonButton{                  
+    position: absolute;
+    top: 85%;
+    right: 6.25%;
+    text-decoration: none;
+} */
+

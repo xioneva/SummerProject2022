@@ -1,0 +1,169 @@
+/*AJ Hatoum*/
+
+#headerbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #00B2CA;
+    height: 80px;
+    z-index: 3;
+    margin-left : -9px;
+}
+
+.sidebar div {
+    position: relative;
+    height: 1px;
+    background-color: white;
+    margin: 19px 0;
+}
+
+.sidebar {
+    width: 80px;
+    display: block;
+    margin: 18px 0 0 20px;
+}
+
+#headertitle {
+    position: absolute;
+    color: white;
+    left: 8%;
+    top: 22%;
+    font-size: 38px;
+    font-family: Arial;
+}
+
+#headerprofile {
+    position: absolute;
+    right: 6.25%;
+    top: 12%;
+    width: 80px;
+    height: 60px;
+}
+
+h1 {
+    margin-top: 6%;
+    text-align: center;
+    /*align-items: center;
+    margin-left: -15px;
+    position: absolute;*/
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1D4E89;
+}
+
+.lessonbox {
+    margin: auto;
+    margin-top: 1%;
+    padding-right: 5%;
+    padding-top: .01%;
+    padding-bottom: .01%;
+    background-color: white;
+    top: 28%;
+    width: 50%;
+    height: 100%;
+    /*Not too sure how this works, I got it from the w3 schools website under the CSS lessons*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lesson p{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: Arial;
+    top: 3%;
+    left: 2.6%;
+}
+
+.lesson li{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: Arial;
+    top: 3%;
+    left: 2.6%;
+}
+
+.lesson dt{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: Arial;
+    top: 3%;
+    left: 2.6%;
+}
+
+.lesson dd{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: Arial;
+    top: 3%;
+    left: 2.6%;
+}
+
+.lesson ul{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: Arial;
+    top: 3%;
+    left: 2.6%;
+}
+
+.nextbutton {
+    position: absolute;
+    top: 85%;
+    right: 6.25%;
+}
+
+.nextbutton a {
+    font-size: 35px;
+    font-family: Arial;
+    color: black;
+    text-decoration: none;
+}
+
+.backbutton {
+    position: absolute;
+    top: 85%;
+    left: 6.25%;
+}
+
+.backbutton a {
+    font-size: 35px;
+    font-family: Arial;
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #FBD1A2;
+    min-width: 141px;
+    top: 89px;
+    z-index: 1;
+    overflow: auto;
+    margin: -9px;
+}
+
+.menu a {
+    color: black;
+    padding: 20px 16px;
+    font-family: Arial;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+}
+
+.show {
+    display: block;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,81 @@
+<!--AJ Hatoum-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <link rel="stylesheet" href="LessonStyles.css">
+    <title>Learn Java</title>
+</head>
+    <div id="headerbar">
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="open_menu()" title="Menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <scan id="headertitle">Learn Java</scan>
+        <!--Implement interactive profile picture (button)-->
+        <img id="headerprofile" src="https://cdn.nerdschalk.com/wp-content/uploads/2020/09/how-to-remove-profile-picture-on-zoom-12.png?width=500">
+    </div>
+    <div id="dropdownOptions" class="menu">
+        <a href="../../homePage.html">Home</a>
+        <a href="../../lessonsListPage.html">Lessons</a>
+        <a href="../../Welcome page.htm">Logout</a>
+    </div>
+    <script>
+        function open_menu() {
+            document.getElementById("dropdownOptions").classList.toggle("show");
+        }
+    </script>
+    <div class="lesson">
+        <!--Lesson title here-->
+        <h1>Lesson 9: Array List</h1>
+        <div class="lessonbox">
+            <!--Lesson content here-->
+            <p>
+              When working with arrays, most often knowing the length of the array is important. 
+              Array has a length property that returns the length of the array. 
+              <br>
+              To get this property, use the syntax: arrrayname.length
+              <br>
+              <br>
+            
+              For example: 
+              <br>
+              "String[] stringlist = {"Hello","world"}"
+              <br>
+              "int x = stringlist.length;"
+              <br>
+              The variable x will hold the length of the array. In this example, x will be 2.
+              <br>
+              <br>
+    
+              Another important thing when working with array is accessing one element in the array. 
+              To get an elelment in an array, use the syntax: arrayname[index]
+              <br>
+              The index is the position the element is in in the array.
+              <br>
+              <br>
+              For the eample above, the string "Hello" will be at index 0.  
+              <br>
+              <br>
+              The same syntax is use to resign an index to a new element. 
+              <br>
+              <br>
+              For example: "stringlist[1] = "today";"
+              <br>
+              This will change the stringlist array to be {"Hello", "today"}
+
+            
+            </p>
+        </div>
+    </div>
+    <div class="backbutton">
+        <a href="Array List lesson page 1.html">Back</a>
+    </div>
+    <div class="nextbutton">
+        <a href="Array List lesson page 3.html">Next</a>
+    </div>
+</body>
+</html>
