@@ -39,7 +39,6 @@ input{
     height: 60px; 
     width:20%; 
     font-size: larger;
-    
 }
 button{
     position:absolute; 
@@ -50,5 +49,20 @@ button{
     font-size:20px; 
     font-family: Arial, Helvetica, sans-serif;
 }
+#loginBtn{
+    position:absolute; 
+    left: 73%; 
+    top: 500px; 
+    width: 84px; 
+    height: 45px; 
+    font-size:20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+#fname{
+    top:300px;
+}
 
+#password{
+    top: 400px;
+}

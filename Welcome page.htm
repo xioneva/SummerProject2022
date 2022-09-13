@@ -23,20 +23,19 @@
 </div>
 <div class="form">
     <!--create submit form-->
-    <form action="file:///C:/Users/vangx/OneDrive/Desktop/Next%20Page.htm"><!--the page that the submit form will go to -->
+    action="file:///C:/Users/vangx/OneDrive/Desktop/Next%20Page.htm"
+    <form ><!--the page that the submit form will go to -->
 
-    <input type="email" id="fname" name="fname" placeholder="Enter Username/Email"
-    style="position:absolute; left: 65%; top:300px; height: 60px; width:20%; 
-    font-size: larger;" required> <br><br>
+    <input type="email" id="fname" name="fname" placeholder="Enter Username/Email" required> <br><br>
 
-    <input type="text" id="lname" name="lname" placeholder="Enter Password" 
-    style="position:absolute; left: 65%; top: 400px; height: 60px; width:20%;
-    font-size: larger;" required><br><br>
+    <input type="text" id="password" name="lname" placeholder="Enter Password" required><br><br>
 
-    <input type="submit" value="Log In" style="position:absolute; left: 73%; top: 500px; width: 84px; height: 45px; font-size:20px; font-family: Arial, Helvetica, sans-serif;">
+    <!-- <input type="submit" value="Log In" style="position:absolute; left: 73%; top: 500px; width: 84px; height: 45px; font-size:20px; font-family: Arial, Helvetica, sans-serif;"> -->
+    <button id = "loginBtn" onclick="checkInput()"> Log In </button>     
     </form>
     <a href = "Sign Up Page.htm"><button>Sign Up</button></a>
 </div>
 </body>
+<script src="createUser.js"></script>
 
 </html>
